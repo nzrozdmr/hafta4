@@ -1,0 +1,12 @@
+
+fruits = ["apple", "banana", "cherry"] 
+sayac=[]
+for meyve in fruits:
+  print(meyve)
+  sayici=0
+  for harf in range(len(meyve)):
+    sayici+=1
+    print(sayici)
+    sayac.append(sayici)
+for say in sayac:
+      print(say)

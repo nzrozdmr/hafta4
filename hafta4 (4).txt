@@ -1,0 +1,14 @@
+fruits = ["apple", "banana", "cherry"] 
+
+def donustur(a):
+    sayac = []
+    for meyve in a:
+       print(meyve)
+       sayici = 0
+       for harf in range(len(meyve)):
+        sayici+=1
+       print(sayici)
+       sayac.append(sayici)
+    return sayac 
+b = donustur(fruits)
+print(b)
